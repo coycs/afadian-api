@@ -1,0 +1,19 @@
+{
+  "name": "afadian_api",
+  "version": "1.0.0",
+  "description": "爱发电API使用",
+  "main": "index.js",
+  "scripts": {
+    "dev:page": "node ./scripts/page.js",
+    "dev:out_trade_no": "node ./scripts/out_trade_no.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "blueimp-md5": "^2.19.0"
+  }
+}
